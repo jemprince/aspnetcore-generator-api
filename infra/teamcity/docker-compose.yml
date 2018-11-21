@@ -9,9 +9,11 @@ services:
     ports:
       - 8111:8111
   teamcity-agent:
+    privileged: true
     image: jetbrains/teamcity-agent
     environment:
-      SERVER_URL: http://teamcity:8111
+      - SERVER_URL: http://teamcity:8111
+      - DOCKER_IN_DOCKER: start
     volumes:
       - /var/run/cocker.sock:/var/run/docker.sock
 volumes:
