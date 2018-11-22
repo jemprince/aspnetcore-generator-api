@@ -12,6 +12,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{AB8DCEE0-4BAE-4A5C-B5AA-757AA6B1EB06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teamcity", "Teamcity", "{AF1CFEB7-4C2E-464D-AAFC-C1EE7FB32485}"
+	ProjectSection(SolutionItems) = preProject
+		infra\teamcity\docker-compose.yml = infra\teamcity\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Registry", "Registry", "{DB96DC15-9ED9-49D5-807A-7297AE7FADD5}"
+	ProjectSection(SolutionItems) = preProject
+		infra\registry\docker-compose.yml = infra\registry\docker-compose.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +61,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF1CFEB7-4C2E-464D-AAFC-C1EE7FB32485} = {AB8DCEE0-4BAE-4A5C-B5AA-757AA6B1EB06}
+		{DB96DC15-9ED9-49D5-807A-7297AE7FADD5} = {AB8DCEE0-4BAE-4A5C-B5AA-757AA6B1EB06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74BB0990-3568-43BF-98CF-1B74B455C9B5}
