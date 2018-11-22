@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Registry", "Registry", "{DB
 		infra\registry\docker-compose.yml = infra\registry\docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "integration", "integration\integration.csproj", "{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,18 @@ Global
 		{33354F36-FE71-4EDC-9E50-BA3F68090AF3}.Release|x64.Build.0 = Release|Any CPU
 		{33354F36-FE71-4EDC-9E50-BA3F68090AF3}.Release|x86.ActiveCfg = Release|Any CPU
 		{33354F36-FE71-4EDC-9E50-BA3F68090AF3}.Release|x86.Build.0 = Release|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Debug|x64.Build.0 = Debug|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Debug|x86.Build.0 = Debug|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Release|x64.ActiveCfg = Release|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Release|x64.Build.0 = Release|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Release|x86.ActiveCfg = Release|Any CPU
+		{D9BA1A51-05F9-4FF4-BB68-E1869932FD2D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
